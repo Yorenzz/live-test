@@ -1,0 +1,110 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "genaisennao_2.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "genaisennao_2.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "Start": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "TapTouchBody": [
+        {
+          "File": "motions/touch_body.motion3.json"
+        }
+      ],
+      "TapTouchHead": [
+        {
+          "File": "motions/touch_head.motion3.json"
+        }
+      ],
+      "TapTouchSpecial": [
+        {
+          "File": "motions/touch_special.motion3.json"
+        }
+      ],
+      "happy": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ],
+      "surprise": [
+        {
+          "File": "motions/main_2.motion3.json"
+        }
+      ],
+      "anger": [
+        {
+          "File": "motions/main_1.motion3.json"
+        }
+      ],
+      "confusion": [
+        {
+          "File": "motions/touch_head.motion3.json"
+        }
+      ],
+      "shame": [
+        {
+          "File": "motions/home.motion3.json"
+        }
+      ],
+      "hand": [
+        {
+          "File": "motions/mission_complete.motion3.json"
+        }
+      ],
+      "entice": [
+        {
+          "File": "motions/mission.motion3.json"
+        }
+      ],
+      "cold": [
+        {
+          "File": "motions/main_3.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Name": "TouchBody",
+      "Id": "TouchBody"
+    },
+    {
+      "Name": "TouchHead",
+      "Id": "TouchHead"
+    },
+    {
+      "Name": "TouchSpecial",
+      "Id": "TouchSpecial"
+    }
+  ],
+  "LipSync": true,
+  "AnisoLevel": 4
+}
